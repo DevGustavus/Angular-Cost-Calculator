@@ -1,0 +1,32 @@
+header {
+    padding: 15px;
+    margin: 5px;
+    background-color: #3a3535;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    gap: 5px;
+}
+
+li i {
+    font-size: 1.5rem;
+}
+
+li span {
+    font-size: 1.3rem;
+}
+
+a {
+    transition: transform 0.3s ease;
+}
+  
+a:hover {
+    transform: scale(1.1);
+}

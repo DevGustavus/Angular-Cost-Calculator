@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #d8c79c;
+    animation: gradientAnimation 10s linear infinite;
+}
+  
+@keyframes gradientAnimation {
+    0% { background-color: #e0d0b7; } /* Dourado mais neutro */
+    25% { background-color: #c7b395; } /* Dourado mais cinza */
+    50% { background-color: #e0d0b7; } /* Dourado mais neutro */
+    75% { background-color: #c7b395; } /* Dourado mais cinza */
+    100% { background-color: #e0d0b7; } /* Dourado mais neutro */
+}
