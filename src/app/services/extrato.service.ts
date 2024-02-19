@@ -14,7 +14,7 @@ export class ExtratoService {
   }
 
   obterExtratos() {
-    return this.httpClient.get<Extrato[]>(this.url);
+    return this.httpClient.get<Extrato[]>(this.url + '/extratos');
   }
 
 }

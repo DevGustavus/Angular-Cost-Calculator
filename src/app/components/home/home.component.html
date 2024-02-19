@@ -1,4 +1,7 @@
-<app-header></app-header>
+<app-header
+    linkGithub="https://github.com/DevGustavus"
+    linkLinkedin="https://www.linkedin.com/in/gustavo-machado-pontes-161616286/"
+></app-header>
 <main>
     <section class="introducao">
         <div class="introducao-text">
@@ -6,13 +9,37 @@
             <h2>Aqui você pode fazer os cálculos dos seus gastos.</h2>
             <p>
                 Use a calculadora abaixo para realizar uma operação de soma de todos os seus gastos.<br>
-                A calculadora permite que você registre seus gastos junto com o nome da transação, sua descrição e valor, além de possuir um mecanismo de busca/filtragem.
+                A calculadora permite que você registre seus gastos junto com o <span>nome</span> da transação, sua <span>descrição</span> e <span>valor</span>.
             </p>
             <p>
-                A calculadora é uma ferramenta essencial para gerenciar suas finanças pessoais. Com ela, você pode ter um controle preciso dos seus gastos, categorizá-los e entender melhor para onde seu dinheiro está indo.
+                A calculadora é uma ferramenta essencial para gerenciar suas finanças pessoais. Com ela, você pode ter um <span>controle preciso dos seus gastos</span>, categorizá-los e entender melhor para onde seu dinheiro está indo.
             </p>
         </div>
         
-        <img src="./../../../assets/images/undraw_transfer_money_re_6o1h.svg">
+        <div class="introducao-img">
+            <img src="./../../../assets/images/undraw_transfer_money_re_6o1h.svg">
+        </div>
+    </section>
+    <section class="calculadora">
+        <app-calculator></app-calculator>
+    </section>
+    <section class="sobre" id="sobre">
+        <div class="sobre-img">
+            <img src="./../../../assets/images/undraw_plain_credit_card_re_c07w.svg">
+        </div>
+
+        <div class="sobre-text">
+            <h1>Um projeto <span style="color: #ff6b6b;">Angular</span> :)</h1>
+            <h2>Este projeto foi realizado com intuito educativo.</h2>
+            <p>
+                Em um momento de criatividade, decidi desenvolver um projeto simples sobre uma calculadora financeira. Este projeto me ajudou a treinar e aprimorar minhas habilidades em <span style="color: #ff6b6b;">Angular</span> , especialmente em componentização de elementos e consumo de <span style="color: #00cf00;">API</span>.
+            </p>
+            <p>
+                Apresento-lhes um sistema simples cujo <span style="color: #0000ff;">banco de dados</span> é um arquivo <span style="color: #ffff00;">JSON</span>. Este sistema é executado através do "<span style="color: #ffff00;">JSON server</span>", fornecendo uma rota para que o sistema <span style="color: #00ffff;">Front-End</span> o consuma.
+            </p>
+        </div>
     </section>
 </main>
+<app-footer
+    assinatura="devGustavus"
+></app-footer>

@@ -1,0 +1,22 @@
+{
+  "extratos": [
+    {
+      "id": 1,
+      "nome": "Aluguel",
+      "descricao": "Pagamento mensal do aluguel",
+      "valor": 1000
+    },
+    {
+      "id": 2,
+      "nome": "Supermercado",
+      "descricao": "Compra de mantimentos",
+      "valor": 200
+    },
+    {
+      "id": 3,
+      "nome": "Energia",
+      "descricao": "Pagamento da conta de energia",
+      "valor": 150
+    }
+  ]
+}

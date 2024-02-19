@@ -1,0 +1,52 @@
+<div class="container">
+    <form>
+      <div class="container_inputs">
+        <div class="label_div">
+          <label>Id</label>
+          <input type="text" name="id">
+        </div>
+        
+        <div class="label_div">
+          <label>Nome</label>
+          <input type="text" name="nome">
+        </div>
+        
+        <div class="label_div">
+          <label>Descrição</label>
+          <input type="text" name="descricao">
+        </div>
+  
+        <div class="label_div">
+          <label>Valor</label>
+          <input type="number" name="valor">
+        </div>
+      </div>
+
+      <div class="btn_div">
+        <button id="criar_btn">Criar</button>
+      </div>
+    </form>
+    
+    <table>
+      <thead>
+        <th>Id</th>
+        <th>Nome</th>
+        <th>Descrição</th>
+        <th>Valor</th>
+        <th>Opção</th>
+      </thead>
+    
+      <tbody>
+        <tr *ngFor="let extrato of extratos">
+          <td>{{extrato.id}}</td>
+          <td>{{extrato.nome}}</td>
+          <td>{{extrato.descricao}}</td>
+          <td>{{extrato.valor}}</td>
+          <td>
+            <i class="fa-solid fa-pen-to-square"></i>
+            <i class="fa-solid fa-trash"></i>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+</div>

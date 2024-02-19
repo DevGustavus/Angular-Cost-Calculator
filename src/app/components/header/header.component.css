@@ -12,7 +12,10 @@ ul {
 
 li {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 5px;
+    color: #fff;
 }
 
 li i {
