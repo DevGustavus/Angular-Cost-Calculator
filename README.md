@@ -1,7 +1,7 @@
 <h1 align="center">Angular-Cost-Calculator:</h1>
 
 ## 📲 View the project here
-<a href="https://angular-psn-store-jet.vercel.app">https://angular-psn-store-jet.vercel.app</a>
+<a href="angular-cost-calculator.vercel.app">angular-cost-calculator.vercel.app</a>
 
 ## 📖 About the project
 This project aimed to improve my skills with Angular, serving as a self-directed educational endeavor. Through it, I could delve deeper into the concepts of full-stack development and learn how to consume APIs using Angular.
