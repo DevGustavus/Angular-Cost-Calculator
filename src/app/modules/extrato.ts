@@ -1,5 +1,5 @@
 export interface Extrato {
-    id?: number;
+    id?: string;
     nome: string;
     descricao: string;
     valor: number;

@@ -50,6 +50,20 @@
     background-color: #1ca11c;
 }
 
+#cancelar_btn {
+    display: none;
+    padding: 0 5px 0 5px;
+    border-radius: 10px;
+    font-weight: 1000;
+    font-size: 1.2rem;
+    background-color: #ff0000;
+}
+
+#cancelar_btn:hover {
+    cursor: pointer;
+    background-color: #ff5555;
+}
+
 .container form .label_div {
     display: flex;
     align-items: center;
@@ -99,6 +113,15 @@ tbody td i:hover {
     transform: scale(1.2);
 }
 
+.somatorio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+    font-size: 2rem;
+}
+
 @media (max-width: 1115px) {
     .container {
         width: 100%;
@@ -110,5 +133,23 @@ tbody td i:hover {
         flex-direction: column;
         gap: 8px;
         align-items: baseline;
+    }
+
+    thead th {
+        font-size: 0.8rem;
+        padding: 4px 6px;
+    }
+
+    tbody td {
+        font-size: 0.7rem;
+        padding: 4px 6px;
+    }
+
+    tbody td i {
+        font-size: 1rem;
+    }
+
+    .somatorio {
+        font-size: 1.3rem;
     }
 }
