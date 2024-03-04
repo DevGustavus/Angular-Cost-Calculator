@@ -13,6 +13,18 @@ The project revolves around a cost calculator, allowing users to input data for 
 
 The database is a simple JSON file, and it is served by JSON Server, functioning as the backend.
 
+### ‼️ Environment port configuration:
+The environment is configured to listen on the following port...
+```
+├── environments
+│ ├── environment.development.ts (here!)
+│ └── environment.ts
+
+export const environment = {
+    api: 'http://localhost:3000'
+};
+```
+
 <img src="Doc/README_assets/mainPg.png">
 
 ### Calculator component
